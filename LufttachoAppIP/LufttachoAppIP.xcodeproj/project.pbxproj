@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8918D59E1C43CC6400F63614 /* VerbundenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918D59D1C43CC6400F63614 /* VerbundenVC.swift */; };
+		8918D5AD1C43F26700F63614 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8918D5A61C43EE2B00F63614 /* Charts.framework */; };
+		8918D5AE1C43F26700F63614 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8918D5A61C43EE2B00F63614 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		897D84FE1C40778B008D5B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D84FD1C40778B008D5B32 /* AppDelegate.swift */; };
+		897D85001C40778B008D5B32 /* SuchenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D84FF1C40778B008D5B32 /* SuchenViewController.swift */; };
+		897D85031C40778B008D5B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897D85011C40778B008D5B32 /* Main.storyboard */; };
+		897D85061C40778B008D5B32 /* LufttachoAppIP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 897D85041C40778B008D5B32 /* LufttachoAppIP.xcdatamodeld */; };
+		897D85081C40778B008D5B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897D85071C40778B008D5B32 /* Assets.xcassets */; };
+		897D850B1C40778B008D5B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897D85091C40778B008D5B32 /* LaunchScreen.storyboard */; };
+		897D85161C40778B008D5B32 /* LufttachoAppIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D85151C40778B008D5B32 /* LufttachoAppIPTests.swift */; };
+		897D85211C40778B008D5B32 /* LufttachoAppIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D85201C40778B008D5B32 /* LufttachoAppIPUITests.swift */; };
+		897D852F1C4078E3008D5B32 /* FInalScan.png in Resources */ = {isa = PBXBuildFile; fileRef = 897D852E1C4078E3008D5B32 /* FInalScan.png */; };
+		8988630D1C4558B000A1C0FD /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8988630B1C4558B000A1C0FD /* SideBarTableViewController.swift */; };
+		8988630E1C4558B000A1C0FD /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8988630C1C4558B000A1C0FD /* SideBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8918D5A51C43EE2B00F63614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8918D59F1C43EE2B00F63614 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		8918D5A71C43EE2B00F63614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8918D59F1C43EE2B00F63614 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		8918D5A91C43EE2B00F63614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8918D59F1C43EE2B00F63614 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		8918D5AF1C43F26700F63614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8918D59F1C43EE2B00F63614 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		897D85121C40778B008D5B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 897D84F21C40778A008D5B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 897D84F91C40778B008D5B32;
+			remoteInfo = LufttachoAppIP;
+		};
+		897D851D1C40778B008D5B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 897D84F21C40778A008D5B32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 897D84F91C40778B008D5B32;
+			remoteInfo = LufttachoAppIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8918D5B11C43F26800F63614 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8918D5AE1C43F26700F63614 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8918D59D1C43CC6400F63614 /* VerbundenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbundenVC.swift; sourceTree = "<group>"; };
+		8918D59F1C43EE2B00F63614 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../ios-charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		8918D5B21C4406E500F63614 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		897D84FA1C40778B008D5B32 /* LufttachoAppIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LufttachoAppIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897D84FD1C40778B008D5B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		897D84FF1C40778B008D5B32 /* SuchenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuchenViewController.swift; sourceTree = "<group>"; };
+		897D85021C40778B008D5B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		897D85051C40778B008D5B32 /* LufttachoAppIP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LufttachoAppIP.xcdatamodel; sourceTree = "<group>"; };
+		897D85071C40778B008D5B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		897D850A1C40778B008D5B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		897D850C1C40778B008D5B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897D85111C40778B008D5B32 /* LufttachoAppIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LufttachoAppIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		897D85151C40778B008D5B32 /* LufttachoAppIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LufttachoAppIPTests.swift; sourceTree = "<group>"; };
+		897D85171C40778B008D5B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897D851C1C40778B008D5B32 /* LufttachoAppIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LufttachoAppIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		897D85201C40778B008D5B32 /* LufttachoAppIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LufttachoAppIPUITests.swift; sourceTree = "<group>"; };
+		897D85221C40778B008D5B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897D852E1C4078E3008D5B32 /* FInalScan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FInalScan.png; sourceTree = "<group>"; };
+		8988630B1C4558B000A1C0FD /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		8988630C1C4558B000A1C0FD /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		897D84F71C40778B008D5B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8918D5AD1C43F26700F63614 /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897D850E1C40778B008D5B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897D85191C40778B008D5B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8918D5A01C43EE2B00F63614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8918D5A61C43EE2B00F63614 /* Charts.framework */,
+				8918D5A81C43EE2B00F63614 /* Charts.framework */,
+				8918D5AA1C43EE2B00F63614 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		897D84F11C40778A008D5B32 = {
+			isa = PBXGroup;
+			children = (
+				897D84FC1C40778B008D5B32 /* LufttachoAppIP */,
+				897D85141C40778B008D5B32 /* LufttachoAppIPTests */,
+				897D851F1C40778B008D5B32 /* LufttachoAppIPUITests */,
+				897D84FB1C40778B008D5B32 /* Products */,
+				8918D59F1C43EE2B00F63614 /* Charts.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		897D84FB1C40778B008D5B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				897D84FA1C40778B008D5B32 /* LufttachoAppIP.app */,
+				897D85111C40778B008D5B32 /* LufttachoAppIPTests.xctest */,
+				897D851C1C40778B008D5B32 /* LufttachoAppIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		897D84FC1C40778B008D5B32 /* LufttachoAppIP */ = {
+			isa = PBXGroup;
+			children = (
+				897D84FD1C40778B008D5B32 /* AppDelegate.swift */,
+				897D84FF1C40778B008D5B32 /* SuchenViewController.swift */,
+				8918D59D1C43CC6400F63614 /* VerbundenVC.swift */,
+				8918D5B21C4406E500F63614 /* Header.h */,
+				8988630B1C4558B000A1C0FD /* SideBarTableViewController.swift */,
+				8988630C1C4558B000A1C0FD /* SideBar.swift */,
+				897D85011C40778B008D5B32 /* Main.storyboard */,
+				897D85071C40778B008D5B32 /* Assets.xcassets */,
+				897D852E1C4078E3008D5B32 /* FInalScan.png */,
+				897D85091C40778B008D5B32 /* LaunchScreen.storyboard */,
+				897D850C1C40778B008D5B32 /* Info.plist */,
+				897D85041C40778B008D5B32 /* LufttachoAppIP.xcdatamodeld */,
+			);
+			path = LufttachoAppIP;
+			sourceTree = "<group>";
+		};
+		897D85141C40778B008D5B32 /* LufttachoAppIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				897D85151C40778B008D5B32 /* LufttachoAppIPTests.swift */,
+				897D85171C40778B008D5B32 /* Info.plist */,
+			);
+			path = LufttachoAppIPTests;
+			sourceTree = "<group>";
+		};
+		897D851F1C40778B008D5B32 /* LufttachoAppIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				897D85201C40778B008D5B32 /* LufttachoAppIPUITests.swift */,
+				897D85221C40778B008D5B32 /* Info.plist */,
+			);
+			path = LufttachoAppIPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		897D84F91C40778B008D5B32 /* LufttachoAppIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897D85251C40778B008D5B32 /* Build configuration list for PBXNativeTarget "LufttachoAppIP" */;
+			buildPhases = (
+				897D84F61C40778B008D5B32 /* Sources */,
+				897D84F71C40778B008D5B32 /* Frameworks */,
+				897D84F81C40778B008D5B32 /* Resources */,
+				8918D5B11C43F26800F63614 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8918D5B01C43F26700F63614 /* PBXTargetDependency */,
+			);
+			name = LufttachoAppIP;
+			productName = LufttachoAppIP;
+			productReference = 897D84FA1C40778B008D5B32 /* LufttachoAppIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		897D85101C40778B008D5B32 /* LufttachoAppIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897D85281C40778B008D5B32 /* Build configuration list for PBXNativeTarget "LufttachoAppIPTests" */;
+			buildPhases = (
+				897D850D1C40778B008D5B32 /* Sources */,
+				897D850E1C40778B008D5B32 /* Frameworks */,
+				897D850F1C40778B008D5B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				897D85131C40778B008D5B32 /* PBXTargetDependency */,
+			);
+			name = LufttachoAppIPTests;
+			productName = LufttachoAppIPTests;
+			productReference = 897D85111C40778B008D5B32 /* LufttachoAppIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		897D851B1C40778B008D5B32 /* LufttachoAppIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897D852B1C40778B008D5B32 /* Build configuration list for PBXNativeTarget "LufttachoAppIPUITests" */;
+			buildPhases = (
+				897D85181C40778B008D5B32 /* Sources */,
+				897D85191C40778B008D5B32 /* Frameworks */,
+				897D851A1C40778B008D5B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				897D851E1C40778B008D5B32 /* PBXTargetDependency */,
+			);
+			name = LufttachoAppIPUITests;
+			productName = LufttachoAppIPUITests;
+			productReference = 897D851C1C40778B008D5B32 /* LufttachoAppIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		897D84F21C40778A008D5B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Brus Lan";
+				TargetAttributes = {
+					897D84F91C40778B008D5B32 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B76T963N9W;
+					};
+					897D85101C40778B008D5B32 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B76T963N9W;
+						TestTargetID = 897D84F91C40778B008D5B32;
+					};
+					897D851B1C40778B008D5B32 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B76T963N9W;
+						TestTargetID = 897D84F91C40778B008D5B32;
+					};
+				};
+			};
+			buildConfigurationList = 897D84F51C40778A008D5B32 /* Build configuration list for PBXProject "LufttachoAppIP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 897D84F11C40778A008D5B32;
+			productRefGroup = 897D84FB1C40778B008D5B32 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8918D5A01C43EE2B00F63614 /* Products */;
+					ProjectRef = 8918D59F1C43EE2B00F63614 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				897D84F91C40778B008D5B32 /* LufttachoAppIP */,
+				897D85101C40778B008D5B32 /* LufttachoAppIPTests */,
+				897D851B1C40778B008D5B32 /* LufttachoAppIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8918D5A61C43EE2B00F63614 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 8918D5A51C43EE2B00F63614 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8918D5A81C43EE2B00F63614 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 8918D5A71C43EE2B00F63614 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8918D5AA1C43EE2B00F63614 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 8918D5A91C43EE2B00F63614 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		897D84F81C40778B008D5B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897D850B1C40778B008D5B32 /* LaunchScreen.storyboard in Resources */,
+				897D85081C40778B008D5B32 /* Assets.xcassets in Resources */,
+				897D85031C40778B008D5B32 /* Main.storyboard in Resources */,
+				897D852F1C4078E3008D5B32 /* FInalScan.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897D850F1C40778B008D5B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897D851A1C40778B008D5B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		897D84F61C40778B008D5B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897D85061C40778B008D5B32 /* LufttachoAppIP.xcdatamodeld in Sources */,
+				897D85001C40778B008D5B32 /* SuchenViewController.swift in Sources */,
+				8918D59E1C43CC6400F63614 /* VerbundenVC.swift in Sources */,
+				897D84FE1C40778B008D5B32 /* AppDelegate.swift in Sources */,
+				8988630E1C4558B000A1C0FD /* SideBar.swift in Sources */,
+				8988630D1C4558B000A1C0FD /* SideBarTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897D850D1C40778B008D5B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897D85161C40778B008D5B32 /* LufttachoAppIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897D85181C40778B008D5B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897D85211C40778B008D5B32 /* LufttachoAppIPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8918D5B01C43F26700F63614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 8918D5AF1C43F26700F63614 /* PBXContainerItemProxy */;
+		};
+		897D85131C40778B008D5B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 897D84F91C40778B008D5B32 /* LufttachoAppIP */;
+			targetProxy = 897D85121C40778B008D5B32 /* PBXContainerItemProxy */;
+		};
+		897D851E1C40778B008D5B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 897D84F91C40778B008D5B32 /* LufttachoAppIP */;
+			targetProxy = 897D851D1C40778B008D5B32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		897D85011C40778B008D5B32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				897D85021C40778B008D5B32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		897D85091C40778B008D5B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				897D850A1C40778B008D5B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		897D85231C40778B008D5B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		897D85241C40778B008D5B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		897D85261C40778B008D5B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = LufttachoAppIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brus.LufttachoAppIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		897D85271C40778B008D5B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = LufttachoAppIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brus.LufttachoAppIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		897D85291C40778B008D5B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LufttachoAppIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brus.LufttachoAppIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LufttachoAppIP.app/LufttachoAppIP";
+			};
+			name = Debug;
+		};
+		897D852A1C40778B008D5B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LufttachoAppIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brus.LufttachoAppIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LufttachoAppIP.app/LufttachoAppIP";
+			};
+			name = Release;
+		};
+		897D852C1C40778B008D5B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LufttachoAppIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brus.LufttachoAppIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LufttachoAppIP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		897D852D1C40778B008D5B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LufttachoAppIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brus.LufttachoAppIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LufttachoAppIP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		897D84F51C40778A008D5B32 /* Build configuration list for PBXProject "LufttachoAppIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897D85231C40778B008D5B32 /* Debug */,
+				897D85241C40778B008D5B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897D85251C40778B008D5B32 /* Build configuration list for PBXNativeTarget "LufttachoAppIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897D85261C40778B008D5B32 /* Debug */,
+				897D85271C40778B008D5B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897D85281C40778B008D5B32 /* Build configuration list for PBXNativeTarget "LufttachoAppIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897D85291C40778B008D5B32 /* Debug */,
+				897D852A1C40778B008D5B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897D852B1C40778B008D5B32 /* Build configuration list for PBXNativeTarget "LufttachoAppIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897D852C1C40778B008D5B32 /* Debug */,
+				897D852D1C40778B008D5B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		897D85041C40778B008D5B32 /* LufttachoAppIP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				897D85051C40778B008D5B32 /* LufttachoAppIP.xcdatamodel */,
+			);
+			currentVersion = 897D85051C40778B008D5B32 /* LufttachoAppIP.xcdatamodel */;
+			path = LufttachoAppIP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 897D84F21C40778A008D5B32 /* Project object */;
+}
